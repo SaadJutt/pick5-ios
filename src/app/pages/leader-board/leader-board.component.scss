@@ -1,0 +1,26 @@
+.leaderboard-scroll{
+    overflow-y: scroll;
+    height: 430px;
+}
+
+
+@media (min-width: 375px) and (max-width: 400px) {
+    .leaderboard-scroll {
+        overflow-y: scroll;
+        height: 265px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+    .leaderboard-scroll {
+        overflow-y: scroll;
+        height: 320px;
+    }
+}
+
+@media (min-width: 375px) and (min-height: 812px) {
+    .leaderboard-scroll {
+        overflow-y: scroll;
+        height: 415px;
+    }
+}

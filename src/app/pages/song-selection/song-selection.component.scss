@@ -1,0 +1,26 @@
+.select-song-item .item-native {
+    border-radius: 15px !important;
+    background: white;
+}
+
+@media (min-width: 414px)  {
+    .select-song-scroll {
+        overflow-y: scroll;
+    height: 550px;
+    }
+}
+
+
+@media (min-height: 844px) {
+    .select-song-scroll {
+        overflow-y: scroll;
+        height: 670px;
+    }
+}
+
+@media (min-height: 667px) and (max-height: 735px) {
+    .select-song-scroll {
+        overflow-y: scroll;
+        height: 500px;
+    }
+}
