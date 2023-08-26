@@ -1,60 +1,57 @@
 <div class="ion-padding container2 scrollable">
+    <div class="widthset">
+        <div class="ion-text-center">
+            <div class="profile-container">
+                <img class="profile-image" src="../../../assets/img/demo.png">
 
-    <div class="ion-text-center">
-        <div class="profile-container">
-            <img class="profile-image" src="../../../assets/img/demo.png">
-
+            </div>
+            <h5 class="cat-label font-w-700">Maria Gotham</h5>
+            <p class="cat-label">mariagotham@pick5.com</p>
         </div>
-        <h5 class="cat-label font-w-700">Maria Gotham</h5>
-        <p class="cat-label">mariagotham@pick5.com</p>
+        <ion-grid class="mb-40">
+            <ion-row>
+                <ion-col (click)="bandList()" class="grid-container ion-text-center">
+                    <div class="icon-container">
+                        <img src="./../../../assets/img/homeicon1.png">
+                    </div>
+                    <p class="cat-label">Bands</p>
+                </ion-col>
+                <ion-col (click)="bandList()" class="grid-container ion-text-center">
+                    <div class="icon-container">
+                        <img src="./../../../assets/img/homeicon2.png">
+                    </div>
+                    <p class="cat-label">Concerts</p>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col (click)="isLeaderBoard()" class="grid-container ion-text-center">
+                    <div class="icon-container">
+                        <img src="./../../../assets/img/homeicon3.png">
+                    </div>
+                    <p class="cat-label">Leaderboard</p>
+                </ion-col>
+                <ion-col (click)="isPlayingHistory()" class="grid-container ion-text-center">
+                    <div class="icon-container">
+                        <img src="./../../../assets/img/homeicon4.png">
+                    </div>
+                    <p class="cat-label">Playing History</p>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col (click)="isPaymentHistory()" class="grid-container ion-text-center">
+                    <div class="icon-container">
+                        <img src="./../../../assets/img/homeicon5.png">
+                    </div>
+                    <p class="cat-label">Payment History</p>
+                </ion-col>
+                <ion-col class="grid-container ion-text-center">
+                    <div class="icon-container">
+                        <img src="./../../../assets/img/homeicon6.png">
+                    </div>
+                    <p class="cat-label">Profile</p>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
     </div>
-    <ion-grid class="mb-40">
-        <ion-row>
-            <ion-col (click)="bandList()" class="grid-container ion-text-center">
-                <div class="icon-container">
-                    <img src="./../../../assets/img/homeicon1.png">
-                </div>
-                <p class="cat-label">Bands</p>
-            </ion-col>
-            <ion-col (click)="bandList()" class="grid-container ion-text-center">
-                <div class="icon-container">
-                    <img src="./../../../assets/img/homeicon2.png">
-                </div>
-                <p class="cat-label">Concerts</p>
-            </ion-col>
-        </ion-row>
-        <ion-row>
-            <ion-col (click)="isLeaderBoard()" class="grid-container ion-text-center">
-                <div class="icon-container">
-                    <img src="./../../../assets/img/homeicon3.png">
-                </div>
-                <p class="cat-label">Leaderboard</p>
-            </ion-col>
-            <ion-col (click)="isPlayingHistory()"  class="grid-container ion-text-center">
-                <div class="icon-container">
-                    <img src="./../../../assets/img/homeicon4.png">
-                </div>
-                <p class="cat-label">Playing History</p>
-            </ion-col>
-        </ion-row>
-        <ion-row>
-            <ion-col (click)="isPaymentHistory()" class="grid-container ion-text-center">
-                <div class="icon-container">
-                    <img src="./../../../assets/img/homeicon5.png">
-                </div>
-                <p class="cat-label">Payment History</p>
-            </ion-col>
-            <ion-col class="grid-container ion-text-center">
-                <div class="icon-container">
-                    <img src="./../../../assets/img/homeicon6.png">
-                </div>
-                <p class="cat-label">Profile</p>
-            </ion-col>
-        </ion-row>
-    </ion-grid>
-
-   
-
-
 </div>
 <!-- -->

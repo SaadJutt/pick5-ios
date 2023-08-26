@@ -24,3 +24,10 @@
         height: 500px;
     }
 }
+
+@media (min-width: 768px) and (min-height: 1024px){
+    .select-song-scroll{
+        overflow-y: scroll;
+        height: 840px;
+    }
+}

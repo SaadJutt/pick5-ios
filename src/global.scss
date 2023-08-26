@@ -515,3 +515,11 @@
 .payment-color{
   color: #9D8EDB;
 }
+
+
+@media (min-width: 768px) and (min-height: 1024px){
+ .widthset{
+  width: 75%;
+  margin: auto;
+ }
+}

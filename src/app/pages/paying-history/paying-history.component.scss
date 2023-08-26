@@ -30,3 +30,14 @@
         height: 555px;
     }
 }
+
+@media (min-width: 768px) and (min-height: 1024px){
+    .byBabdScroll {
+        overflow-y: scroll;
+        height: 730px;
+    }
+
+    .pad-lef-50{
+        padding-left: 60px;
+    }
+}

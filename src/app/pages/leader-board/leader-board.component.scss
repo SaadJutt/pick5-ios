@@ -24,3 +24,10 @@
         height: 415px;
     }
 }
+
+@media (min-width: 768px) and (min-height: 1024px){
+    .leaderboard-scroll{
+        overflow-y: scroll;
+        height: 630px;
+    }
+}

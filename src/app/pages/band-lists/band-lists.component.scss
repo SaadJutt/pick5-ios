@@ -28,3 +28,15 @@
         height: 600px;
     }
 }
+
+@media (min-width: 768px) and (min-height: 1024px){
+    .content-scroll{
+        overflow-y: scroll;
+        height: 771px;
+    }
+    .band-upcoming-scroll {
+        overflow-y: scroll;
+        height: 771px;
+    }
+}
+
