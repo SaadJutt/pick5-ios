@@ -53,7 +53,7 @@ export class PlayingHistoryComponent  implements OnInit {
   ngOnInit() {}
 
   back(){
-    this.router.navigateByUrl('tabs/byband');
+    this.router.navigateByUrl('tabs');
   }
   payingHistory(){
     this.router.navigateByUrl('tabs/payinghistory');

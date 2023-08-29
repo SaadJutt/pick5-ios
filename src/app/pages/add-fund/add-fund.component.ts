@@ -17,7 +17,7 @@ export class AddFundComponent  implements OnInit {
   }
 
   payout() {
-    
+    this.router.navigateByUrl('tabs');
   }
 
 }

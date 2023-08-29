@@ -12,7 +12,9 @@ export class PaymentComponent  implements OnInit {
 
   ngOnInit() {}
 
-  back() {}
+  back() {
+    this.router.navigateByUrl('tabs');
+  }
 
   payout() {
     this.router.navigateByUrl('tabs/payout');
