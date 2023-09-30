@@ -14,6 +14,7 @@ import { PlayingHistoryRoutingModule } from './playing-history-routing.module';
     IonicModule,
     PlayingHistoryRoutingModule
   ],
-  declarations: [PlayingHistoryComponent]
+  declarations: [PlayingHistoryComponent],
+  exports: [PlayingHistoryComponent]
 })
 export class PlayingHistoryModule { }

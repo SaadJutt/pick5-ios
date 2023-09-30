@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./leader-board.component.scss'],
 })
 export class LeaderBoardComponent  implements OnInit {
+  isActive = true;
+  isBandListFlag = false;
 
   public leaderBoard = [
     {
@@ -46,4 +48,18 @@ export class LeaderBoardComponent  implements OnInit {
   byBand() {
     this.router.navigate(['tabs/byband']);
   }
+
+  isBand() {
+    console.log('call');
+    this.isBandListFlag = false;
+   
+      this.isActive = true;
+    
+  }
+
+  isYear() {
+    this.isBandListFlag = true;
+    this.isActive = false;
+  }
+
 }

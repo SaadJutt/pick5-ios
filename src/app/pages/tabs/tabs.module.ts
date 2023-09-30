@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { TabsRoutingModule } from './tabs-routing.module';
 import { TabsComponent } from './tabs.component';
+import { PlayingHistoryModule } from '../playing-history/playing-history.module';
 
 
 
@@ -13,7 +14,8 @@ import { TabsComponent } from './tabs.component';
     IonicModule,
     CommonModule,
     FormsModule,
-    TabsRoutingModule
+    TabsRoutingModule,
+    PlayingHistoryModule
   ]
 })
 export class TabsModule { }
